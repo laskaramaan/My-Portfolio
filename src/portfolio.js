@@ -171,7 +171,7 @@ const workExperiences = {
     {
       role: "Freelance Web Developer",
       company: "Self Employed",
-      companylogo: require("./assets/images/Freelancerr.png"),
+      companylogo: require("./assets/images/Selfemploy.png"),
       date: "Jan 2022 – Present",
       descBullets: [
         "Collaborated with early stage startup to build landing page as per their requirement",
@@ -189,7 +189,7 @@ const workExperiences = {
     {
       role: "Co-Founder",
       company: "Wi-Shirts",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
+      companylogo: require("./assets/images/Wishirts.jpeg"),
       date: "2019 – July 2021",
       descBullets: [
         "Co-founded a merchandise startup, where i have learned a lot about listening to customers and communicating with them",
