@@ -218,7 +218,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Netflix UI Clone",
+      projectName: "Netflix UI Clone(Desktop views)",
       projectDesc: "This is a completely dynamic App built on react.js ",
       projectStack: "Tech Stack: React.js + TailwindCSS",
       footerLink: [
@@ -231,7 +231,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Rent-a-Property App",
+      projectName: "Rent-a-Property App(Desktop view)",
       projectDesc: "Implemented Single Page Real Estate “Rent a Property” web app with filtering mechanism.",
       projectStack: "Tech Stack: React.js + TailwindCSS",
       footerLink: [
