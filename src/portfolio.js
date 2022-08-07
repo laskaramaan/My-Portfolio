@@ -10,9 +10,9 @@ const illustration = {
 
 const greeting = {
   username: "Amaan laskar",
-  title: "Hi all, I'm Amaan",
+  title: "Hi, I'm Amaan",
   subTitle: emoji(
-    "A passionate Front-end Developer 🚀 having an experience of designing and building Web applications with JavaScript & Reactjs ."
+    "A passionate Front-end Developer 🚀 having an experience of designing and building Web applications with JavaScript & React.js ."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1h50ITbJf4k5w7MNv7LKIvsGj1duEa_pO/view?usp=sharing",
@@ -152,7 +152,7 @@ const workExperiences = {
     {
       role: "Project Intern",
       company: "TCS",
-      companylogo: require("./assets/images/cpLogo.png"),
+      companylogo: require("./assets/images/TCSLogo.png"),
       date: "Feb 2022 – May 2022",
       // desc:
       //   "Changing lives of developers one line of code at a time.",
@@ -170,8 +170,8 @@ const workExperiences = {
     },
     {
       role: "Freelance Web Developer",
-      company: "Self Empolyed",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
+      company: "Self Employed",
+      companylogo: require("./assets/images/Freelancerr.png"),
       date: "Jan 2022 – Present",
       descBullets: [
         "Collaborated with early stage startup to build landing page as per their requirement",
@@ -287,60 +287,50 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Client works: "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Sparify Project",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Landing page for Sparify",
+      image: require("./assets/images/Sparify.jpg"),
       footerLink: [
         {
-          name: "Certification",
+          name: "Visit Website",
           url:
-            ""
-        },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
+            "https://sparify.co/"
         }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url:
-            ""
-        }
-      ]
-    },
+    // {
+    //   title: "Google Assistant Action",
+    //   subtitle:
+    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+    //   image: require("./assets/images/googleAssistantLogo.webp"),
+    //   footerLink: [
+    //     {
+    //       name: "View Google Assistant Action",
+    //       url:
+    //         ""
+    //     }
+    //   ]
+    // },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        {
-          name: "Final Project",
-          url: ""
-        }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   footerLink: [
+    //     { name: "Certification", url: "" },
+    //     {
+    //       name: "Final Project",
+    //       url: ""
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -410,11 +400,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me :"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "+918473020710",
+  email_address: "laskaramaan@gmail.com"
 };
 
 // Twitter Section
@@ -439,5 +429,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+ 
 };
