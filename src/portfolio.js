@@ -189,7 +189,7 @@ const workExperiences = {
     {
       role: "Co-Founder",
       company: "Wi-Shirts",
-      companylogo: require("./assets/images/Wishirts.jpeg"),
+      companylogo: require("./assets/images/Wishirtsss.png"),
       date: "2019 – July 2021",
       descBullets: [
         "Co-founded a merchandise startup, where i have learned a lot about listening to customers and communicating with them",
