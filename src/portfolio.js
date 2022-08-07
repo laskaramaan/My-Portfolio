@@ -150,34 +150,52 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
+      role: "Project Intern",
+      company: "TCS",
       companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
-      desc:
-        "Changing lives of developers one line of code at a time.",
+      date: "Feb 2022 – May 2022",
+      // desc:
+      //   "Changing lives of developers one line of code at a time.",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Built DL Model which can predict Emotion from speech with an accuracy of 73%",
+        "Integrated the model with front-end user interface using Flask frameWork",
+        "Deployed the web-app on AWS EC2 instance",
+        "Collaborated with other team members and Team lead"
+
+        
+
+
+
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
+      role: "Freelance Web Developer",
+      company: "Self Empolyed",
       companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+      date: "Jan 2022 – Present",
+      descBullets: [
+        "Collaborated with early stage startup to build landing page as per their requirement",
+        "Deployed on live server",
+        "maintaining the code"
+
+        
+
+
+
+
+
+      ]
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
+      role: "Co-Founder",
+      company: "Wi-Shirts",
       companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+      date: "2019 – July 2021",
+      descBullets: [
+        "Co-founded a merchandise startup, where i have learned a lot about listening to customers and communicating with them",
+        "Worked with my team-mates to develop and implement new merchandising strategies based on current data and trends",
+        "Responsible for planning, vendor selection and quality assurance efforts of merchandise"
+        ]
     }
   ]
 };
@@ -195,34 +213,74 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal Projects",
+  // subtitle: "",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Netflix UI Clone",
+      projectDesc: "This is a completely dynamic App built on react.js ",
+      projectStack: "Tech Stack: React.js + TailwindCSS",
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa"
+          url: "https://react-netflix-coral.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Rent-a-Property App",
+      projectDesc: "Implemented Single Page Real Estate “Rent a Property” web app with filtering mechanism.",
+      projectStack: "Tech Stack: React.js + TailwindCSS",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
+          url: "https://rent-a-property-three.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Heath Tech Landing page UI",
+      projectDesc: "This project is a landing page built on react.js and its fully responsive ",
+      projectStack: "Tech Stack: React.js + TailwindCSS",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://uvi-health-task.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "News App",
+      projectDesc: "This is a completely dynamic App built on react.js All the news, images, summary etc. are fetched from a news API",
+      projectStack: "Tech Stack: React.js + CSS",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://react-news-app-ivory.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Quiz App",
+      projectDesc: "In this dynamic application user will be displayed MCQs which he/she needs to answer",
+      projectStack: "Tech Stack: React.js + CSS",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://react-quiz-app-pi.vercel.app/"
         }
       ]
     }
+    
+    
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -276,7 +334,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: ""
@@ -284,7 +342,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -292,22 +350,29 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Other then developing I also love to write and share what I have learnt.",
 
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        "https://amaanlaskar.hashnode.dev/computer-networking-in-one-go",
+      title: "Computer networking in one go",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Before we dive deep into Computer Networks lets understand some basic stuffs and terminologies..."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://amaanlaskar.hashnode.dev/super-quick-guide-to-git-and-github",
+      title: "Super Quick Guide to GIT & GITHUB",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "If you want to quickly upload your projects on GITHUB than this guide is for you only..."
+    },
+    {
+      url: "https://amaanlaskar.hashnode.dev/software-security-principles",
+      title: "Software security principles",
+      description:
+        "Lets learn about some secure coding checklist..."
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
