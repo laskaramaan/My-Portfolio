@@ -47,8 +47,8 @@ export default class Main extends Component {
         >
           <Header />
           <Greeting />
-          {/* <Skills />
-          <StackProgress />
+          <Skills />
+          {/* <StackProgress />
           <Education />
           <WorkExperience />
           <Projects />
