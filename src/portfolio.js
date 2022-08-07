@@ -340,7 +340,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Other then developing I also love to write and share what I have learnt.",
+    "Other then Web Development I also love to write and share what I have learnt.👇",
 
   blogs: [
     {
