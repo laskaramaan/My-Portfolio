@@ -218,7 +218,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Netflix UI Clone(Desktop views)",
+      projectName: "Netflix UI Clone(Desktop view)",
       projectDesc: "This is a completely dynamic App built on react.js ",
       projectStack: "Tech Stack: React.js + TailwindCSS",
       footerLink: [
