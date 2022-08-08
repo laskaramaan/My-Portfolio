@@ -192,9 +192,9 @@ const workExperiences = {
       companylogo: require("./assets/images/Wishirtsss.png"),
       date: "2019 – July 2021",
       descBullets: [
-        "Co-founded a merchandise startup, where i have learned a lot about listening to customers and communicating with them",
-        "Worked with my team-mates to develop and implement new merchandising strategies based on current data and trends",
-        "Responsible for planning, vendor selection and quality assurance efforts of merchandise"
+        "Co-founded a merchandise startup",
+        "Worked with my team-mates to develop and implement news strategies based on current data and trends",
+        "Responsible for planning, vendor selection and quality assurance "
         ]
     }
   ]
