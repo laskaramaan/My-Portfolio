@@ -295,8 +295,9 @@ const achievementSection = {
     {
       title: "Sparify Project",
       subtitle:
-        "Landing page for Sparify",
+        "Built Landing Page for Sparify",
       image: require("./assets/images/Sparify.jpg"),
+      
       footerLink: [
         {
           name: "Visit Website",
